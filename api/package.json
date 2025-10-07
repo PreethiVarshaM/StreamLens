@@ -1,0 +1,15 @@
+{
+  "name": "rt-logs-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "@elastic/elasticsearch": "^7.17.0",
+    "ioredis": "^5.3.1",
+    "dotenv": "^16.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
